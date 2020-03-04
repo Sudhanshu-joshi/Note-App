@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "253799736486",
+    "firebase_url": "https://note-app-e1a5f.firebaseio.com",
+    "project_id": "note-app-e1a5f",
+    "storage_bucket": "note-app-e1a5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253799736486:android:e792496155728148910067",
+        "android_client_info": {
+          "package_name": "com.dietapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253799736486-jhpq8sbu6ljm1d9oit1aluhbesa0dj4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU9HnMwjpifhYwQzZUe11gfZPET9XjLh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253799736486-jhpq8sbu6ljm1d9oit1aluhbesa0dj4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

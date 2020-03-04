@@ -22,7 +22,7 @@ export default class LoginScreen extends React.Component {
                 
                 onPress={() => this.props.navigation.navigate("LoginForm")}>
                 
-                <Text style={{fontSize: 30,fontStyle:'italic',color:'silver',padding:45}}>Note App</Text>
+                <Text style={{fontSize: 30,fontStyle:'italic',color:'silver',padding:45}}>Notes App</Text>
 
       
        
