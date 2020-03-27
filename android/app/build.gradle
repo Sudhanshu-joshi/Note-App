@@ -132,6 +132,7 @@ android {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
  multiDexEnabled true
+vectorDrawables.useSupportLibrary = true
         versionCode 1
         versionName "1.0"
     }
@@ -188,8 +189,8 @@ implementation "com.google.firebase:firebase-firestore:19.0.0"
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.facebook.react:react-native:+"  // From node_modules
 implementation 'androidx.appcompat:appcompat:1.1.0-rc01'
+implementation "com.google.firebase:firebase-storage:17.0.0"
 implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02'
-
 
     if (enableHermes) {
         def hermesPath = "../../node_modules/hermes-engine/android/";

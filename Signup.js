@@ -28,7 +28,7 @@ class Sign extends React.Component{
       }
       
       setValueLocally = () => {
-        AsyncStorage.setItem('Name', this.state.name);
+        AsyncStorage.setItem('Notes', this.state.name);
          alert("Value Stored Successfully.")
         //console.log(Notes);
       }

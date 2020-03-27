@@ -11,18 +11,18 @@ import {
 export default class LoginScreen extends React.Component {
     render() {
         return (
-            <View style={{flex:1,backgroundColor:'grey',justifyContent:'center',alignItems:'center'}}>
+            <View style={{flex:1,backgroundColor:"white",justifyContent:'center',alignItems:'center'}}>
                  <Image
-          source={require('./r.jpeg')}
-          style={{ width: "90%", height: 400, justifyContent: "center", margin:20}}
+          source={require('./to.png')}
+          style={{ width: "80%", height: 240, justifyContent: "center", margin:20}}
         />
                 
                 <TouchableOpacity 
                     
                 
-                onPress={() => this.props.navigation.navigate("LoginForm")}>
+                onPress={() => this.props.navigation.navigate("login")}>
                 
-                <Text style={{fontSize: 30,fontStyle:'italic',color:'silver',padding:45}}>Notes App</Text>
+                <Text style={{fontSize: 38,fontStyle:'italic',color:"rgb(66,170,245)",padding:45}}>Notes App</Text>
 
       
        
